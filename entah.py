@@ -1,7 +1,7 @@
 from display import print_menu as pm
 from random import randint
 
-luck = randint(1-10)
+luck = randint(1-9.5)
 if(luck<=2): pm("Maaf bang kesialan akan menimpamu")
 elif(luck<=5): pm("Keberuntungan anda lagi tidak baik")
 elif(luck<=7): pm("Lumayan keberuntungan anda normal")
